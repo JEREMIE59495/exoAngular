@@ -32,8 +32,4 @@ export class PersonnageListComponent implements OnInit {
     this.personnageService.delete(id).subscribe(()=>this.getAll())
   }
 
-  btnRadio(){
-console.log(this.value);
-    
-  }
 }

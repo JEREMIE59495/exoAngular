@@ -1,12 +1,19 @@
 table{
     border-collapse: collapse;
+    
 }
 td,th{
-    width:15em;
+    
     border:1px solid black;
     text-align: center;
 }
 .title{
     font-size: 2em;
     background:burlywood
+}
+
+.bloc_table{
+    height: 10em;
+    background: yellow;
+    margin:50%;
 }
