@@ -1,0 +1,11 @@
+<h2>formulaire</h2>
+
+<form [formGroup]="formulaire" (ngSubmit)="save()" >
+    <label for="name">Nom:  </label>
+        <input type="text " formControlName="name" id="name">
+
+    <label for ="title">title: </label>
+        <input type="text " formControlName="title" id="title" >
+   
+<button type="submit" > ok</button>
+</form>

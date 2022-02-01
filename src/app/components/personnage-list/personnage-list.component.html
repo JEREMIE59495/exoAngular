@@ -1,0 +1,22 @@
+
+    <table>
+        <tr class="title">
+            <th>id</th>
+            <th>nom</th>
+            <th>title</th>
+            <th>Statut</th>
+            <th>Change Statut</th>
+        </tr>
+        <tr *ngFor="let personnage of personnageList; let i= index">
+            <td>{{personnage.id}}</td>
+            <td>{{personnage.name}}</td>
+            <td>{{personnage.title}}</td>
+            <td>{{personnage.active}}</td>
+            <td><input type="checkbox" (click)="btnRadio()"></td>
+            <button (click)="delete(personnage.id!)">Supprimer</button>
+        </tr>
+       
+    </table>
+    
+ 
+
